@@ -1,10 +1,10 @@
-# Aichatbot
+# AI-chatbot
 <!DOCTYPE html>
 <html lang="en">
 
 <body>
 
-  <h1>🤖 Chatbot using Gemini AI</h1>
+  <h1>🤖 Chatbot using Gemini AI API</h1>
 
   <div class="section">
     <h2>📌 Project Overview</h2>
