@@ -4,7 +4,7 @@ let chatContainer=document.querySelector(".chat-container")
 let btn=document.querySelector(".btn")
 let userMessage=null
 
-const Api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAguQE5lEfkaMY7Weo3E2rKAtOB9f8sY30"
+const Api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-latest:generateContent?key=AIzaSyAguQE5lEfkaMY7Weo3E2rKAtOB9f8sY30"
 function createChatBox(html,className){
 const div=document.createElement("div")
 div.classList.add(className)
@@ -72,4 +72,5 @@ btn.addEventListener("click",()=>{
  setTimeout(showLoading,500)
 
 })
+
 
