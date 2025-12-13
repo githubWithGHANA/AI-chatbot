@@ -20,7 +20,7 @@ const response=await fetch(Api_url,{
   body:JSON.stringify({
     contents:[{
       "role": "user",
-      "parts":[{text:`${userMessage} in 10 words`}]
+      "parts":[{text:`${userMessage} in 109 words`}]
     }]
   })
 })
@@ -72,3 +72,4 @@ btn.addEventListener("click",()=>{
  setTimeout(showLoading,500)
 
 })
+
